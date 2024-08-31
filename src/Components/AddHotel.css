@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top:10px;
+    background-color:white;
+    padding-bottom: 30px;
+    width:550px;
+    height: auto;
+    border-radius:9px;
+    overflow: hidden;
+}
+
+.AddHotelheader{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:9px;
+    width:100%;
+    margin-top: 20px;
+}
+
+
+.text{
+    color:#3c009d;
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+}
+
+.underline{
+    width:61px;
+    height:6px;
+    background:#3c009d;
+    border-radius: 9px;
+
+}
+
+.inputs{
+    margin-top:40px;
+    display:flex;
+    flex-direction:column;
+    gap: 25px;
+}
+.select{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    width:430px;
+    height: 45px;
+    background: #eaeaea;
+    border-radius:6px;
+    text-align: center;
+
+}
+.option{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    margin:auto;
+    padding:10px;
+    width:430px;
+    height: 45px;
+    background: #eaeaea;
+    border-radius:6px;
+
+}
+
+.input{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    margin:auto;
+    width:430px;
+    height: 45px;
+    background: #eaeaea;
+    border-radius:6px;
+}
+
+.input input{
+    height:45px;
+    width:400px;
+    background:transparent;
+    border:none;
+    outline:none;
+    color: #797979;
+    font-size:19px;
+    text-align: center;
+}
+
+.submit-container{
+    display:flex;
+    gap:30px;
+    margin:30px auto;
+}
+
+.submit{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:220px;
+    height:59px;
+    color:#fff;
+    background:#4c00b4;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:600;
+    cursor: pointer;
+}
